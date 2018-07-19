@@ -81,4 +81,5 @@ router.delete("/:comment_id", middleware.checkCommentOwnership, function(req, re
     });
 });
 
+//export router
 module.exports = router;
